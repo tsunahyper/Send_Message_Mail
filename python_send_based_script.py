@@ -10,7 +10,7 @@ while not message_sent:
         hour = int(input("Hour (Time to be sent): "))
         minute = int(input("Minute (Time to be sent): "))
 
-        w.sendwhatmsg(phone_num, message, hour, minute) # Sends the message at 10:30 AM
+        w.sendwhatmsg(phone_num, message, hour, minute) 
 
         pyautogui.press('enter')
         time.sleep(2)
